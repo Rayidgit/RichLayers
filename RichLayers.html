@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RichLayers</title>
+    </head>
+    <body>
+        <h1>Assalamu alaikum.</h1>
+        <h2>Welocome to <em>RichLayers</em>.</h2>
+        <hr>
+        <main>
+            <p>This is the official website of <strong>RichLayers</strong>.You can find more <a href="#" target="_blank">cakes</a> and recipies here.</p>
+            <hr>
+            <h3>Here are some cake images.</h3>
+            <!--TO DO OR DONE: The Link for cake image is added.-->
+            <a href="https://www.cakefacotry.lk"><img src="cake_image_1.jpg" alt="Chocolate Cake."></a>
+            <h3>Types of Cakes we are offering.</h3>
+            <div class="Lists">
+            <ul>
+                <a href="#" target="_blank" alt="Chocolate Cakes"><li>Chocolate Cakes.</li></a>
+                <a href="#" alt="Eclairs"><li>Eclairs.</li></a>
+                <a href="#" alt="Brownies"><li>Brownies.</li></a>
+                <!--TO DO OR DONE: Cretae a Button to input images.-->
+                <form action="/submit-cake-photo">
+                    <input type="text" name="cakeurl" placeholder="Enter the URL" required>
+                    <button type="submit">submit</button><br>
+                    <p>Choose an <strong>Option</strong> below.</p>
+                    <label for="Chocolate Cakes"><input id="Chocolate Cakes" type="radio" name="Chocolate Cakes-Eclairs-Brownies">Chocolate Cakes</label><br>
+                    <label for="Eclairs"><input id="Eclairs" type="radio" name="Chocolate Cakes-Eclairs-Brownies">Eclairs</label><br>
+                    <label for="Brownies"><input id="Brownies" type="radio" name="Chocolate Cakes-Eclairs-Brownies">Brownies</label><br>
+
+                    <p>Select what <strong>fillings</strong> need to be added.</p>
+                    <label for="icing"><input type="checkbox" id="icing" name="icing-wipcream-icecream">Icing</label><br>
+                    <label for="wipcream"><input type="checkbox" id="wipcream" name="icing-wipcream-icecream">Wip cream</label><br>
+                    <label for="icecream"><input type="checkbox" id="icecream" name="icing-wipcream-icecream">Ice cream</label><br>
+                </form>
+            </ul>
+        </div>
+        </main>
+        <footer>
+            <small><p>No Copywrite - <a href="https://RichLayers.com">RichLayers.com</a></p></small>
+        </footer>
+    </body>
+</html>
